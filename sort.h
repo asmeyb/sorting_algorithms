@@ -30,4 +30,17 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 
+void cocktail_sort_list(listint_t **list);
+void merge_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+void bitonic_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void counting_sort(int *array, size_t size);
+
+void sort_recursive(int *array, int *i, int start, int end);
+void merge_arrays(int *arr, int *i, int start, int mid, int end);
+void q_sort(int *array, int lo, int hi, size_t size);
+size_t partition(int *array, int lo, int hi, size_t size);
+
 #endif /* SORT.H */
